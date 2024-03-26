@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Notebook Hp Rosa</title>
+</head>
+<body>
+    <nav class="nav-bar"></nav>
+
+    <div>
+        <div id="buscador" class="box">
+            <form action="/buscador">
+                <label>
+                    Buscar artículo
+                    <input type="text">
+                    <input type="submit" value="Buscar">
+                </label>
+            </form>
+        </div>
+        
+        <div id="imagen" class="box">
+            <img id="imagen-notebook" src="img/Notebook.jpeg" alt="Imágen Notebook">
+        </div>
+        
+        <div id="info-producto" class="box">
+
+            <h1>Notebook Hp Rosa</h1>
+            <div>
+                <ul>
+                    <li>Memoria RAM: 8 GB</li>
+                    <li>Con pantalla táctil: Sí</li>
+                    <li>Tamaño de la pantalla: 17.3 "</li>
+                    <li>Marca del procesador: AMD</li>
+                    <li>Modelo del procesador: Ryzen 3 5300U</li>
+                    <li>Fabricante:<a href="https://www.hp.com/ar-es/home.html">HP</a></li>
+                </ul>
+            </div>
+            <h4>$1.710.935,16</h4>
+        </div>
+
+        <div>
+            <h4>Comentarios</h4>
+            <div id="puntaje" class="box">
+                <p>Excelente producto. Puntaje: 5/5</p>
+                <p>Bastante bueno. Puntaje: 4/5</p>
+            </div>
+        </div>
+
+        <div id="ingreso-puntaje" class="box">
+            <form action="/puntaje">
+                <label>Puntaje</label>
+                <label>
+                    <input type="radio" name="puntaje-ingresado"> 1
+                </label>
+                <label>
+                    <input type="radio" name="puntaje-ingresado"> 2
+                </label>
+                <label>
+                    <input type="radio" name="puntaje-ingresado"> 3
+                </label>
+                <label>
+                    <input type="radio" name="puntaje-ingresado"> 4
+                </label>
+                <label>
+                    <input type="radio" name="puntaje-ingresado"> 5
+                </label>
+    
+                <input type="submit" value="Dar puntaje">
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>

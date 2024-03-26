@@ -1,0 +1,40 @@
+#pantalla {
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-template-areas: 'buscador buscador'
+                            'imagen descripcion'
+                            'puntaje puntaje'
+                            'ingreso-puntaje ingreso-puntaje';
+}
+
+.box {
+    background-color: rgb(189, 185, 185);
+    border-width: 2px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#buscador {
+    grid-area: buscador;
+}
+
+#imagen {
+    grid-area: imagen;
+}
+
+#imagen-notebook {
+    max-width: 100%;
+}
+
+#info-producto {
+    grid-area: descripcion;
+}
+
+#puntaje {
+    grid-area: puntaje;
+}
+
+#ingreso-puntaje {
+    grid-area: ingreso-puntaje;
+}
